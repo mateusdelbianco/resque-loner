@@ -14,4 +14,5 @@ group :test do
   gem "hoptoad_notifier"
   gem "airbrake"
   gem "i18n"
+  gem 'coveralls', require: false
 end

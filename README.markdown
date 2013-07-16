@@ -3,6 +3,9 @@ Resque-Loner
 
 Resque-Loner is a plugin for defunkt/resque which adds unique jobs to resque: Only one job with the same payload per queue.
 
+[![Build Status](https://travis-ci.org/mateusdelbianco/resque-loner.png)](https://travis-ci.org/mateusdelbianco/resque-loner)
+[![Code Climate](https://codeclimate.com/github/mateusdelbianco/resque-loner.png)](https://codeclimate.com/github/mateusdelbianco/resque-loner)
+[![Coverage Status](https://coveralls.io/repos/mateusdelbianco/resque-loner/badge.png?branch=master)](https://coveralls.io/r/mateusdelbianco/resque-loner?branch=master)
 
 Installation
 -------------
