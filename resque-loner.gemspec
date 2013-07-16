@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.summary     = 'Adds unique jobs to resque'
   s.has_rdoc    = false
 
-  s.required_ruby_version     = ">= 1.9"
+  s.required_ruby_version     = ">= 1.9.3"
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project = 'resque-loner'
 
@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
 Makes sure that for special jobs, there can be only one job with the same workload in one queue.
 
 Example:
-    class CacheSweeper 
+    class CacheSweeper
 
        include Resque::Plugins::UniqueJob
 
